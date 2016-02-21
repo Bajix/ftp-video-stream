@@ -1,0 +1,39 @@
+{
+  "name": "ftp-video-stream",
+  "version": "0.0.0",
+  "description": "CLI to stream split RAR archived folders as video downloads",
+  "bin": {
+    "stream-ftp": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bajix/ftp-video-stream.git"
+  },
+  "keywords": [
+    "FTP",
+    "Video",
+    "VLC",
+    "CLI"
+  ],
+  "author": "Thomas Sieverding (Thomas@bajix.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bajix/ftp-video-stream/issues"
+  },
+  "homepage": "https://github.com/Bajix/ftp-video-stream#readme",
+  "dependencies": {
+    "arcstream": "^0.1.3",
+    "async": "^1.5.2",
+    "config": "^1.19.0",
+    "deferred-stream": "^0.2.0",
+    "ftp": "^0.3.10",
+    "inquirer": "^0.12.0",
+    "mkdirp": "^0.5.1",
+    "progress": "^1.1.8",
+    "through2": "^2.0.1"
+  }
+}

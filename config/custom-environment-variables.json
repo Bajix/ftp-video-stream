@@ -1,0 +1,9 @@
+{
+  "uri" : "FTP_URI",
+  "local" : {
+    "dir" : "FTP_LOCAL_DIR"
+  },
+  "remote" : {
+    "dir" : "FTP_REMOTE_DIR"
+  }
+}
